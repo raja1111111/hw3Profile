@@ -1,0 +1,133 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  /* heebo-regular - latin */
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/heebo-v9-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/heebo-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/heebo-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/heebo-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/heebo-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/heebo-v9-latin-regular.svg#Heebo') format('svg'); /* Legacy iOS */
+  }
+
+
+.blog2{
+position: absolute;
+width: 506px;
+height: 100px;
+margin-left:20%;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 50px;
+
+/* Dark Color */
+
+color: #21243D;
+}
+.dashb3{
+    position: absolute;
+width: 374px;
+height: 34px;
+margin-left: 10%;
+
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 29px;
+
+/* Dark Color */
+
+color: #21243D;
+
+}
+.yearr{
+    font-family: Heebo;
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 60px;
+/* identical to box height, or 333% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.head1{
+
+width: 506px;
+height: 45px;
+
+
+font-family: Heebo;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+
+/* Dark Color */
+
+color: #21243D
+}
+.head2{
+    width: 506px;
+height: 82px;
+left: 239px;
+top: 984px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 60px;
+/* or 250% */
+
+
+/* Dark Color */
+
+color: #21243D;
+}
+
+
+/* Dark Color */
+
+
+
+
+@media screen and (max-width: 600px) {
+.dashb3{
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 9%;
+    width: 262px;
+}
+
+.blog2{
+    font-size: 30px;
+line-height: 40px;
+width: 339px;
+margin-left: 0px;
+}
+.tabl{
+    width: 339px;
+}
+.text1{
+    width: 33%;
+}
+.spce{
+    padding-bottom: 10%;
+}
+}

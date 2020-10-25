@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* heebo-regular - latin */
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/heebo-v9-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/heebo-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/heebo-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/heebo-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/heebo-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/heebo-v9-latin-regular.svg#Heebo') format('svg'); /* Legacy iOS */
+  }
+
+  .row {
+ margin-left: 20%;
+    width: 65%;
+    padding: 0 5px;
+  }
+  .column1{
+      width: 30%;
+      margin-left: 0%;
+      
+  }
+  .column2{
+      margin-left: 2%;
+      width: 60%;
+  
+  }
+  .column3{
+      width: 20%;
+  }
+  .column4{
+      width: 80%;
+  }
+  
+  .column {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .column:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: 0%;
+  }
+  .icon{
+      padding:10px;
+  }
+
+  .blog{
+    position: absolute;
+    width: 156px;
+    height: 54px;
+   margin-left: 20%;
+    margin-top: 0%;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  picwork{
+    width: 246px;
+    height: 180px;
+   
+    
+    background: url(image.png);
+    border-radius: 6px;
+  }
+  .intera{
+   
+   
+    
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    
+    /* Dark Color */
+    
+    color: #21243D
+  }
+  .month7{
+    position: absolute;
+    width: 62px;
+height: 25px;
+
+
+/* Year */
+
+background: #FF7C7C;
+border-radius: 16px;
+  }
+  .month{
+
+
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    
+    /* Dark Color */
+    
+    color: #21243D;
+  }
+
+  .text1{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+  }
+
+  .text2{
+      
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 29px;
+
+/* Light */
+
+color: #8695A4;
+  }
+  
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .row {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+      margin-left: 0%;}
+
+      .footer1{
+        margin: .2%;
+        top: 110%;
+        width: 100%;
+       
+      }
+     .icon{
+         padding:2px;
+     }
+     .blog{
+        font-size: 30px;
+        margin-top: 0%;
+     }
+    
+    
+  }
+  
+  /* Style the counter cards */
+  .card {
+   
+    padding: 16px;
+    text-align: left;
+    background-color:white;
+    color: white;
+  }
+ 
